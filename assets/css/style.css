@@ -18,7 +18,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -122,7 +124,8 @@ main {
     padding-left: 10px;
 }
 
-#cover-text>h2, #cover-text>h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff
 }
 
@@ -236,7 +239,7 @@ main {
     border-radius: 2px;
     padding: 0 5px;
     margin: 5px 0 20px 0;
-    
+
 }
 
 #radio-buttons {
@@ -276,6 +279,7 @@ main {
         column-gap: 0;
     }
 }
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -320,9 +324,9 @@ main {
 
     /* Gallery */
     #photos {
-            column-count: 3;
-            column-gap: 0;
-        }
+        column-count: 3;
+        column-gap: 0;
+    }
 
     /* Sign Up Page */
     #signup {
@@ -357,8 +361,8 @@ main {
 
     /* Gallery */
     #photos {
-            column-count: 4;
-            column-gap: 0;
-        }
+        column-count: 4;
+        column-gap: 0;
+    }
 
 }
