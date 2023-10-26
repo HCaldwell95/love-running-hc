@@ -59,22 +59,24 @@
     </header>
 
     <!--Main Content-->
-    <main>
+    <main id="gallery-main">
         <section id="signup">
-            <h2><i class="fa-solid fa-heart-pulse"></i> Let's Get You Signed Up!</h2>
             <form id="signup-form" method="post" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-heart-pulse"></i> Let's Get You Signed Up!</h2>
                 <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="fname" required><br>
+                <input type="text" id="fname" class="text-input" name="fname" required><br>
                 <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname" required><br>
+                <input type="text" id="lname" class="text-input" name="lname" required><br>
                 <label for="email"></label>Email Address:</label>
-                <input type="email" id="email" name="email" required><br>
+                <input type="email" id="email" class="text-input" name="email" required><br>
+                <div id="radio-buttons">
                 <label for="road">Road</label>
-                <input type="radio" id="road" class="radio_buttons" name="running_preference" value="road" required><br>
+                <input type="radio" id="road" name="running_preference" value="road" required><br>
                 <label for="trail">Trail</label>
-                <input type="radio" id="trail" class="radio_buttons" name="running_preference" value="trail" required><br>
+                <input type="radio" id="trail" name="running_preference" value="trail" required><br>
                 <label for="both">Both</label>
-                <input type="radio" id="both" class="radio_buttons" name="running_preference" value="both" required><br>
+                <input type="radio" id="both" name="running_preference" value="both" required><br>
+                </div>
                 <input type="submit" id="lets-run" class="join-button" name="lets-run" value="Let's Run"> 
             </form>
         </section>
