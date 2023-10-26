@@ -120,34 +120,41 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff
 }
 
 /*Reasons Challenge */
 #reasons {
-width: 90%;
-margin: 20px auto;
+    width: 90%;
+    margin: 20px auto;
 
 }
 
-#reasons > h2 {
-font-size: 280%;
-margin-bottom: 20px;
-text-align: center;
+#reasons>h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-#benefits > div {
+#benefits>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
 
-#benefits > div > p {
+#benefits>div>p {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
     padding: 0 20px;
 }
 
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    margin-bottom: 20px;
+    width: 90vw;
+    height: 90vw;
+}
 
 /* Footer */
 #social-networks {
@@ -199,6 +206,7 @@ text-align: center;
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+
     /* Hero */
     #cover-text {
         width: 300px;
