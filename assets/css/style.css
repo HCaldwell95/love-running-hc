@@ -125,7 +125,28 @@ main {
 }
 
 /*Reasons Challenge */
+#reasons {
+width: 90%;
+margin: 20px auto;
 
+}
+
+#reasons > h2 {
+font-size: 280%;
+margin-bottom: 20px;
+text-align: center;
+}
+
+#benefits > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits > div > p {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+    padding: 0 20px;
+}
 
 
 /* Footer */
